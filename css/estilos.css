@@ -20,7 +20,9 @@ body#Principal{
 h3 {
     color: white;
 }
-
+h3:hover{
+color:red;
+}
 div#contenedor {
     width: 800px;
     margin: auto;
