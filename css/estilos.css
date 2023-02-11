@@ -1,0 +1,151 @@
+
+/* Hoja de estilos única para todas las páginas */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    background-image: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+body#Principal{
+    background-image: url(../img/fondo2.jpg);
+    background-attachment: fixed;
+}
+.titulo{
+    color: #02D7F2;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+
+}
+h3 {
+    color: white;
+}
+
+div#contenedor {
+    width: 800px;
+    margin: auto;
+    padding: 100px;
+    padding-bottom: 100%;
+    background-color: #101010;
+    opacity: 85%;
+    border: 2px solid yellow;
+    box-shadow: 0px 0px  60px yellow;
+}
+img.Logo{
+    width: 30%;
+    height: 100px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+.presentacion{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    width: 800px;
+    text-align: center;
+}
+ul.lista{
+    color: white;
+    font-size: 18px;
+}
+
+
+div.ListaCon {
+    color:#FDF102 ;
+    font-weight: 900;
+}
+div.ListaAdap{
+    font-weight: 900;
+    color: white;
+}
+
+
+
+/*Principal*/
+div#Index {
+    border: 0.001px white solid;
+    width: 50%;
+}
+div#wiki{
+    border: 1px solid yellow;
+    border-radius: 30px 0px 0px;
+    box-shadow: 0px 0px 10px yellow;
+}
+
+img.imgjuego {
+    height: 350px;
+    width: 100%;
+}
+div#wiki h4 {
+    color: #27D1F4;
+    width: 35%;
+    display: inline-block;
+    border-right: 1px solid yellow;
+    font-weight: 1000;
+}
+div#wiki {
+    font-size: 15px;
+}
+div#wiki p {
+    float: right;
+    width: 60%;
+}
+div#Galeria img{
+    display: inline-block;
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+div#Video iframe{
+    display: inline-block;
+    width: 45%;
+    margin-left: 20px;
+}
+h2{
+    margin-top: 40px;
+}
+
+/*Ajuda class*/
+.letrablue{
+    color:#02D7F2 ;
+}
+.folatR{
+    float: right;
+}
+.block{
+    display: inline-block;
+}
+
+.w60{
+    width: 60%;
+}
+.w50 {
+    width: 50%;
+}
+.w35{
+    width: 35%;
+}
+.w30{
+    width: 30%;
+}
+
+
+a{
+    color: yellow;
+}
+a:active{
+    test:expression(target="_blank");
+}
+a:hover{
+    font-size: 120%;
+    transition-duration: 2s;
+    color: #02D7F2;
+}
+div#Galeria img:hover {
+    width: 100%;
+    transition-duration: 3s;
+}
