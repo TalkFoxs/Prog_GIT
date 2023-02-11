@@ -52,7 +52,9 @@ ul.lista{
     color: white;
     font-size: 18px;
 }
-
+ul:hover{
+color:red;
+}
 
 div.ListaCon {
     color:#FDF102 ;
